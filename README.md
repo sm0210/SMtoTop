@@ -14,15 +14,15 @@ SMtoTop返回顶部插件JS，有问题发邮件：sm0210@qq.com
 
 ##实例化插件方法：
 
-//实例化SMtoTop 一
+<b>//实例化SMtoTop 一</b>
 
 $().initSMtoTop({smToTopHide:false});
 
-//实例化SMtoTop 二
+<b>//实例化SMtoTop 二</b>
 
 $().initSMtoTop({smToTopTxt:'Top',smToTop:10,smTopTopRight:300,smToTopBottom:50});
 
-//实例化SMtoTop 三
+<b>//实例化SMtoTop 三</b>
 
 $().initSMtoTop({smToTopTxt:'toTop',smTopTopRight:450,smToTopBottom:35});
 
