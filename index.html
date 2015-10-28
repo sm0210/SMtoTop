@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>SMtoTop</title>
+<!--
+	author:SM
+	e-mail:sm0210@qq.com
+	desc:SMtoTop返回顶部插件JS
+	version:SMtoTop 0.1
+-->
+<!--引入SMtoTop插件样式-->
+<link rel="stylesheet" type="text/css" href="css/SMtoTop.css"/>
+<!--引入jquery -->
+<script language="javascript" src="js/jquery.js"></script>
+<!--引入SMtoTop插件-->
+<script language="javascript" src="js/jquery-SMtoTop.js"></script>
+<!--SMtoTop案例-->
+<script language="javascript">
+	$(function(){
+	     //实例化SMtoTop 一
+		 $().initSMtoTop({smToTopHide:false});
+		 //实例化SMtoTop 二
+		 $().initSMtoTop({smToTopTxt:'Top',smToTop:10,smTopTopRight:300,smToTopBottom:50});
+		 //实例化SMtoTop 三
+		 $().initSMtoTop({smToTopTxt:'toTop',smTopTopRight:450,smToTopBottom:35});
+	});
+</script>
+</head>
+
+<body>
+
+    <div style="height:1200px; padding-left:120px; padding-top:20px; background:url(sm0210@qq.com.jpg) no-repeat center 200px;">
+        <h1>SMtoTop插件</h1>
+        author:SM<br/>
+        e-mail:sm0210@qq.com<br/>
+        desc:SMtoTop返回顶部插件JS<br/>
+        version:SMtoTop 0.1<br/>
+    	<br/>
+    </div>
+    
+</body>
+</html>
