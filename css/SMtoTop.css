@@ -1,0 +1,30 @@
+/*
+	author:SM
+	e-mail:sm0210@qq.com
+	desc:SMtoTop返回顶部插件JS
+	version:SMtoTop 0.1
+*/
+
+/*
+	SMtoTop样式
+*/
+.SMtoTop {
+	/*position:fixed;
+	right:30px;
+	bottom:30px;
+	*/
+	cursor:pointer;
+	font-size:14px;
+	line-height:40px;
+	padding:0 20px;
+	color:#FFF;
+	background:#FF5500;
+	text-align:center;
+}
+
+/*
+	SMtoTop ico
+*/
+.SMtoTopCls {
+	background:#FF5500 url(../images/sm0210@qq.com.jpg) no-repeat center center;
+}
