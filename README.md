@@ -12,6 +12,19 @@ version:SMtoTop 0.1
 
 SMtoTop返回顶部插件JS，有问题发邮件：sm0210@qq.com
 
+##实例化插件方法：
+
+//实例化SMtoTop 一
+
+$().initSMtoTop({smToTopHide:false});
+
+//实例化SMtoTop 二
+
+$().initSMtoTop({smToTopTxt:'Top',smToTop:10,smTopTopRight:300,smToTopBottom:50});
+
+//实例化SMtoTop 三
+
+$().initSMtoTop({smToTopTxt:'toTop',smTopTopRight:450,smToTopBottom:35});
 
 ##效果
 ![](https://github.com/sm0210/SMtoTop/blob/master/SMtoTop.png "SMtoTop")
